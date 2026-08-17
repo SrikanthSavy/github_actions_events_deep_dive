@@ -7,9 +7,9 @@ on:
       - closed
   push:
     branches:
-      - master  # only master branch
-      - 'dev-*' # dev-new dev-old-repo
-      -'release/**' # release/new   release/new/test
+      - master # only master branch
+      - "dev-*" # dev-new dev-old-repo
+      - "release/**" # release/new   release/new/test
 jobs:
   deploy:
     runs-on: ubuntu-latest
