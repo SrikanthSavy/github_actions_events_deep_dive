@@ -1,4 +1,4 @@
-name: Events Demo
+name: Events Demo 1
 on:
   pull_request:
     types:
