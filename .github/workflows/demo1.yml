@@ -10,6 +10,7 @@ on:
       - master # only master branch
       - "dev-*" # dev-new dev-old-repo
       - "release/**" # release/new   release/new/test
+      - "dev"
 jobs:
   deploy:
     runs-on: ubuntu-latest
